@@ -12,7 +12,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, insira o numero da conta bancaria: ");
         numeroBancario = sc.nextInt();
-        sc.nextLine();  // Consumir a quebra de linha deixada por nextInt()
+        sc.nextLine(); 
 
         System.out.println("Por favor, insira o numero da agencia bancaria:");
         agencia = sc.nextLine();
